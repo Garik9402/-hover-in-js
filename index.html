@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Template</title>
+</head>
+
+<body>
+    <section class="header-w">
+        <header class="header">
+            <nav class="header-nav">
+                <ul class="header-items">
+                    <li class="header-nav-items">
+                        <a href="#" class="header-items-name">комапния</a>
+                        <div class="header-nav-drropdown">
+                            <div data-id="0" class="header-drropdown-trigger"></div>
+                            <ul class="header-droppdown-menu">
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav-items">
+                        <a href="#" class="header-items-name">настройки</a>
+                        <div class="header-nav-drropdown">
+                            <div data-id="1" class="header-drropdown-trigger"></div>
+                            <ul class="header-droppdown-menu">
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav-items">
+                        <a href="#" class="header-items-name">о сервисе</a>
+                        <div class="header-nav-drropdown">
+                            <div data-id="2" class="header-drropdown-trigger"></div>
+                            <ul class="header-droppdown-menu">
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav-items">
+                        <a href="#" class="header-items-name">новое</a>
+                        <div class="header-nav-drropdown">
+                            <div data-id="2" class="header-drropdown-trigger"></div>
+                            <ul class="header-droppdown-menu ">
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav-items">
+                        <a href="#" class="header-items-name">события</a>
+                        <div class="header-nav-drropdown">
+                            <div data-id="3" class="header-drropdown-trigger"></div>
+                            <ul class="header-droppdown-menu">
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                                <li class="header-droppdown-items">
+                                    <a href="#" class="header-droppdown-items-link">gjfkgkbfk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+
+    <script>
+        let contents = document.querySelectorAll('.header-nav-drropdown')
+        let lis = document.querySelectorAll('.header-droppdown-menu')
+        contents.forEach(function(elem) {
+            elem.addEventListener('mouseover', function() {
+                elem.classList.add('active')
+            })
+            elem.addEventListener('mouseout', function() {
+                elem.classList.remove('active')
+            })
+
+
+        })
+    </script>
+
+</body>
+
+</html>
